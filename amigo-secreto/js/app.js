@@ -67,6 +67,7 @@ function reiniciar(){
     //limpa todos os campos
     document.getElementById('lista-sorteio').textContent = '';
     document.getElementById('lista-amigos').textContent = '';
+    nomeAmigo.value = '';
     amigos = [];
 }
 
